@@ -1,0 +1,17 @@
+/* .github_card{
+
+} */
+.github_card{
+width: 50%;
+height: 100%;
+}
+.user_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%; /* Измените ширину по необходимости */
+    height: 30%; /* Измените высоту по необходимости */
+    background-color: rgb(60, 68, 80); /* Измените цвет фона по необходимости */
+}
+/* ... существующий код ... */

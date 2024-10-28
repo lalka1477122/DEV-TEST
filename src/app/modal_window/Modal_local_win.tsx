@@ -10,7 +10,7 @@ export function Modal_local_win() {
         const hasVisited = localStorage.getItem("hasVisited");
         if (!hasVisited) {
             setIsOpen(true);
-            // localStorage.setItem("hasVisited", "true");
+            localStorage.setItem("hasVisited", "true");
         }
     }, []);
 
@@ -19,7 +19,7 @@ export function Modal_local_win() {
     };
 
     return (
-        // isOpen && 
+        isOpen && 
         (
             <div className={styles.modal_overlay}>
                 <div className={styles.modal_content}>
